@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  color: #1f2a44;
+  background: #eef2fb;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.top-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #d9e6ff;
+  background: #ffffff;
+}
+
+.top-header__inner {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  padding: 0.8rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top-header__brand {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1f3570;
+}
+
+.top-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.top-header__label {
+  font-size: 0.9rem;
+  color: #4d5f8f;
+  font-weight: 600;
+}
+
+.top-header__select {
+  border: 1px solid #bcd0ff;
+  border-radius: 8px;
+  padding: 0.44rem 0.55rem;
+  background: #fbfdff;
+  color: #112046;
+}
+
+.top-header__select:focus {
+  outline: 2px solid #3e7bff;
+  border-color: #3e7bff;
+}
+
+.app-shell {
+  width: 100%;
+  padding: 0 1rem 1.25rem;
+}

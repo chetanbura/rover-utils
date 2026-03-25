@@ -1,0 +1,44 @@
+.page {
+  width: min(900px, 100%);
+  margin: 1.25rem auto;
+  background: #ffffff;
+  border: 1px solid #dbe6ff;
+  border-radius: 14px;
+  box-shadow: 0 10px 36px rgba(37, 70, 120, 0.08);
+  padding: 1.5rem;
+}
+
+.title {
+  color: #1a2b57;
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  color: #4d5f8f;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.card {
+  display: block;
+  border: 1px solid #d8e4ff;
+  border-radius: 10px;
+  padding: 0.9rem;
+  background: #fdfefe;
+}
+
+.cardTitle {
+  color: #223a78;
+  font-weight: 700;
+}
+
+.cardText {
+  margin-top: 0.3rem;
+  color: #4f6399;
+  font-size: 0.93rem;
+}
